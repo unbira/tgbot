@@ -1,9 +1,20 @@
 import logging
+import os
+from dotenv import load_dotenv
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
-# Telegram bot token
-TOKEN = "7559799114:AAHN_BDe68ghKLZClhSfqXTWrm2RroTw4vQ"
+# Load environment variables from .env if present
+load_dotenv()
+
+# Telegram bot token from environment
+try:
+    TOKEN = os.environ["BOT_TOKEN"]
+except KeyError as exc:
+    raise RuntimeError(
+        "BOT_TOKEN environment variable is missing. "
+        "Set it or create a .env file with BOT_TOKEN=<your token>."
+    ) from exc
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
