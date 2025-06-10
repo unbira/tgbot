@@ -41,3 +41,7 @@ The bot will read the token from the environment. If `BOT_TOKEN` is missing an
 informative error will be raised.
 
 The bot uses polling to receive updates.
+
+## Дополнительные материалы
+
+В каталоге `docs` расположен файл **Проект_ЛПА_о_назначении_ответственных_лиц.txt**. Он содержит шаблон локального правового акта о назначении ответственных лиц для сегмента ЕМТС и может использоваться при оформлении заявки.
