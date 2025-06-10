@@ -7,6 +7,11 @@ This repository contains a simple Telegram bot example. It provides three button
 - **РИС ЗАКУПКИ АО**
 
 Pressing a button will reply with a short confirmation message.
+Selecting **\u0415\u0421\u042d\u0414** opens an additional menu with the options:
+
+- \u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0415\u0421\u042d\u0414
+- \u0420\u0430\u0431\u043e\u0442\u0430 \u0432 \u0415\u0421\u042d\u0414
+- \u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0415\u0421\u042d\u0414
 
 ## Setup
 
