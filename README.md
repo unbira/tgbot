@@ -16,18 +16,12 @@ Pressing a button will reply with a short confirmation message.
    pip install -r requirements.txt
    ```
 
-2. Provide your bot's API token in the `BOT_TOKEN` environment variable. For example:
-
-   ```bash
-   export BOT_TOKEN="YOUR_TOKEN_HERE"
-   ```
-
-   Alternatively, you can create a `.env` file with `BOT_TOKEN=YOUR_TOKEN_HERE` and use a tool like `python-dotenv` to load it.
-
-3. Run the bot:
+2. Run the bot:
 
    ```bash
    python bot.py
    ```
+
+The bot token is already defined in `bot.py`. If you need to use a different token, edit the value of `TOKEN` inside that file.
 
 The bot uses polling to receive updates.

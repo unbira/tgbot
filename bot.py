@@ -1,13 +1,9 @@
 import logging
-import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
-# Read the bot token from the BOT_TOKEN environment variable
-TOKEN = os.getenv("BOT_TOKEN")
-
-if not TOKEN:
-    raise RuntimeError("BOT_TOKEN environment variable not set")
+# Telegram bot token
+TOKEN = "7559799114:AAHN_BDe68ghKLZClhSfqXTWrm2RroTw4vQ"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
